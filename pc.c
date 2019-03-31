@@ -6,12 +6,6 @@
 #include <pthread.h>
 #include <semaphore.h>
 
-/*
-use the pthread flag with gcc to compile this code
-~$ gcc -pthread producer_consumer.c -o producer_consumer
-*/
-
-
 pthread_t *producers;
 pthread_t *consumers;
 
